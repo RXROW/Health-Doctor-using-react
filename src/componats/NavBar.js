@@ -4,6 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from '../assites/logo.png'
 import {FaLocationArrow} from "react-icons/fa"
+import {BsSearch} from "react-icons/bs"
+import {BsTelephoneOutboundFill} from "react-icons/bs"
 import './NavBar.css'
 function NavBar() {
   return (
@@ -38,8 +40,8 @@ function NavBar() {
              
             </NavDropdown>
          {/* ---------------Fix This --------------- */}
-            <Nav.Link  >Sreach</Nav.Link>
-            <Nav.Link >Icon (+1)0123456789</Nav.Link>
+            <Nav.Link  >  <BsSearch/> </Nav.Link>
+            <Nav.Link >  <i><BsTelephoneOutboundFill/> </i>  +093456789</Nav.Link>
          {/* -----------------Fix This------------- */}
          <Nav.Link href="#link">
             <button>   Contact Us     <span> <FaLocationArrow/></span> </button>
