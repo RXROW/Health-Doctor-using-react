@@ -21,7 +21,7 @@ header .row h2 {
 header button {
   background-color: var(--orange-color);
   width: 200px;
-  height: 60px;
+  height:50px;
   border-radius: 7px;
   box-shadow: -4px 10px 38px 3px var(--orange-color);
   margin: 20px 0;

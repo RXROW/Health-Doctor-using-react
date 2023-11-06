@@ -1,0 +1,113 @@
+footer img {
+  width: 200px;
+  max-width: 100%;
+  margin: 15px 0;
+}
+footer p {
+  font-size: 17px;
+  color: #777;
+}
+footer .footer-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-contact .icon-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px 30px 0;
+  color: aliceblue;
+  font-size: 20px;
+  align-items: center;
+  background-color: var(--orange-color);
+}
+
+footer .footer-contact .text-box h5 {
+  color: var(--orange-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+footer .footer-contact .text-box h3 {
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: bold;
+}
+ 
+footer h2{
+    color: var(--main-color);
+    margin: 10px 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+footer .links-box li{
+    margin: 10px 0;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer .links-box li:hover{
+    color: var(--btn-color);
+    text-decoration: underline;
+}
+footer .formfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .formfooter input{
+    outline: none;
+    width: 260px;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px 0;
+    transition: 0.3s ease-in-out;
+    border: 1px solid transparent;
+
+}
+footer .formfooter  button {
+    background-color: var(--orange-color);
+    width: 260px;
+    color: aliceblue;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+  }
+ 
+  footer .formfooter button:hover {
+    background-color: #de611d;
+    transform: scale(1.1);
+  }
+footer .formfooter input:focus{
+    border-color: var(--main-color);
+    transform: scale(1.1);
+}
+footer .iconFooter{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+ 
+}
+footer .iconFooter  a{
+    font-size: 40px;
+    color: var(--btn-color);
+    transition: 0.3s ease-in-out;
+}
+footer .iconFooter  a:hover {
+    transform: scale(1.3);
+   
+    
+}
+footer .copy{
+     
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    margin-bottom: -5px;
+    border-top: 1px solid #77777796;
+}
+ 

@@ -9,6 +9,7 @@ import wav from "../assites/wavs.png";
 import "./Home.css";
 const Home = () => {
   return (
+    <>
     <header>
       <Container>
         <div className="row">
@@ -30,6 +31,7 @@ const Home = () => {
         </div>
       </Container>
     </header>
+    </>
   );
 };
 
