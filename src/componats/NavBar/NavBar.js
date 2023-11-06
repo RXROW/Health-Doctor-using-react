@@ -2,11 +2,11 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from '../assites/logo.png'
+import logo from '../../assites/logo.png'
 import {FaLocationArrow} from "react-icons/fa"
 import {BsSearch} from "react-icons/bs"
 import {BsTelephoneOutboundFill} from "react-icons/bs"
-import './NavBar.css'
+import '../NavBar/NavBar.css'
 function NavBar() {
   return (
     <Navbar fixed="top" expand="lg"   >
